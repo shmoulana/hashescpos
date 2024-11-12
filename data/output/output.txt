@@ -1,0 +1,20 @@
+Terminal        : Terminal
+Cashier         :  Chronical Do
+Date            :   2024-11-12 22:56:1210
+Bill            : 2024-11-12 
+[Cover:100]
+#Ticket.Orders#
+#Ticket.Discounts#
+#Ticket.Services#
+#Ticket.Taxes#
+#Ticket.Payments#
+##Ticket.Payments##
+Tendered    :   Payment 1
+Change      :   Cash
+RefNo       :   100
+Tendered    :   Payment 2
+Change      :   Credit
+RefNo       :   100
+##Ticket.Orders##
+Name Highland Coffee  
+Name Red Bull  
