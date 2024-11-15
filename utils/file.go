@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"bufio"
 	"os"
 )
 
@@ -30,4 +31,27 @@ func ReadFromFile(filePath string) (string, error) {
 
 	// Convert byte slice to string and return
 	return string(data), nil
+}
+
+func ReadFromFileToLines(filePath string) ([]string, error) {
+	file, err := os.Open(filePath)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var lines []string
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		if len(line) == 0 {
+			continue
+		}
+		lines = append(lines, line)
+	}
+	err = scanner.Err()
+	if err != nil {
+		return nil, err
+	}
+	return lines, nil
 }
