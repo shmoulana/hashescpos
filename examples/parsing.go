@@ -1,8 +1,8 @@
 package main
 
 import (
-	"printing-sampa-pos/model"
-	"printing-sampa-pos/parsing"
+	"hashescpos/model"
+	"hashescpos/parsing"
 	"time"
 )
 

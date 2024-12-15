@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"printing-sampa-pos/printing"
+	"hashescpos/printing"
 
 	"github.com/stretchr/testify/require"
 )

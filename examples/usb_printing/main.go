@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"printing-sampa-pos/model"
-	"printing-sampa-pos/pos"
+	"hashescpos/model"
+	"hashescpos/pos"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package parsing
 
 import (
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 	"regexp"
 	"strings"
 )

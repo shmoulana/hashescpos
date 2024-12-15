@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"printing-sampa-pos/model"
-	"printing-sampa-pos/utils"
+	"hashescpos/model"
+	"hashescpos/utils"
 )
 
 func ParsingValue(inputFileLayoutPath, inputFileTemplatePath string) string {

@@ -1,4 +1,4 @@
-module printing-sampa-pos
+module hashescpos
 
 go 1.22.5
 

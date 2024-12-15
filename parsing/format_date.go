@@ -2,7 +2,7 @@ package parsing
 
 import (
 	"errors"
-	"printing-sampa-pos/utils"
+	"hashescpos/utils"
 	"regexp"
 	"strings"
 	"time"

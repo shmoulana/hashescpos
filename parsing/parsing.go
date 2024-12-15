@@ -1,8 +1,8 @@
 package parsing
 
 import (
-	"printing-sampa-pos/model"
-	"printing-sampa-pos/utils"
+	"hashescpos/model"
+	"hashescpos/utils"
 	"strings"
 	"time"
 )

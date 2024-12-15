@@ -3,7 +3,7 @@ package layout
 import (
 	"strings"
 
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 )
 
 func replaceService(layout string, serviceList []model.Service) string {

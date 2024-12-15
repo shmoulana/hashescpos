@@ -3,7 +3,7 @@ package parsing
 import (
 	"strings"
 
-	"printing-sampa-pos/utils"
+	"hashescpos/utils"
 )
 
 func getTemplate(inputFileTemplatePath string) string {

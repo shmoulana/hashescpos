@@ -3,7 +3,7 @@ package layout
 import (
 	"strings"
 
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 )
 
 func replaceDiscount(layout string, discountList []model.Discount) string {

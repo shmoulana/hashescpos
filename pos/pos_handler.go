@@ -3,9 +3,9 @@ package pos
 import (
 	"errors"
 
-	"printing-sampa-pos/model"
-	"printing-sampa-pos/parsing"
-	"printing-sampa-pos/utils"
+	"hashescpos/model"
+	"hashescpos/parsing"
+	"hashescpos/utils"
 )
 
 type Pos struct {

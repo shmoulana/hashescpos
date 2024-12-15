@@ -2,7 +2,7 @@ package parsing
 
 import (
 	"fmt"
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 	"strings"
 )
 

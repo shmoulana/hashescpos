@@ -3,7 +3,7 @@ package layout
 import (
 	"strings"
 
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 )
 
 func replaceTax(layout string, taxList []model.Tax) string {

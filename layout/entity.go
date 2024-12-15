@@ -3,7 +3,7 @@ package layout
 import (
 	"strings"
 
-	"printing-sampa-pos/model"
+	"hashescpos/model"
 )
 
 func replaceEntityTable(layout string, entity model.EntityTable) string {
