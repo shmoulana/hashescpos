@@ -1,9 +1,8 @@
-module github.com/DoTuanAnh2k1/parsing-template
+module printing-sampa-pos
 
 go 1.22.5
 
 require (
-	github.com/DoTuanAnh2k1/printing-sampa-pos v1.0.1
 	github.com/chronnie/go-escpos v1.0.2
 	github.com/stretchr/testify v1.10.0
 )

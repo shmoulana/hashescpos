@@ -3,19 +3,27 @@ package main
 import (
 	"time"
 
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/model"
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/pos"
+	"printing-sampa-pos/model"
+	"printing-sampa-pos/pos"
 )
 
 func main() {
-	templatePath := "data/template/templat_printing.txt"
+	templatePath := "data/template/template.txt"
 	// Please keep in mind that option layout have not supported yet
 	layoutPath := "data/layout/layout.txt"
 
-	// Printing with template data
-	pos.PrintFromTemplate(templatePath, layoutPath)
+	// Init pos handler with template path
+	posHandlerTemplate, err := pos.NewPosFromTemplateFile(templatePath, layoutPath)
+	if err != nil {
+		panic(err)
+	}
 
-	// Printing with object data
+	// Printing
+	// USBPath empty which mean using default usb printing gate
+	posHandlerTemplate.PrintWithUSB("")
+
+	// ----------------------------------------------------------------------------------------
+	// Printing with ticket object data
 	ticket := model.Ticket{
 		Index:       "1",
 		Terminal:    "CashOut",
@@ -88,5 +96,10 @@ func main() {
 		},
 	}
 
-	pos.PrintFromTicket(ticket, layoutPath)
+	// Init Handler with ticket object
+	posHandler := pos.NewPos(ticket, layoutPath)
+
+	// Printing
+	// Path empty which mean using default usb printing gate
+	posHandler.PrintWithUSB("")
 }

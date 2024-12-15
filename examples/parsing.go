@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/DoTuanAnh2k1/parsing-template/model"
-	"github.com/DoTuanAnh2k1/parsing-template/parsing"
+	"printing-sampa-pos/model"
+	"printing-sampa-pos/parsing"
 	"time"
 )
 
@@ -12,7 +12,7 @@ func main() {
 		LoginUser:   "Chronical Do",
 		PaymentDate: time.Now().Format("2006-01-02"),
 		PaymentType: "Cash",
-		Tag:         "{\"Pax\": \"100\", \"PaxTime\": \"2020/10/10\"}",
+		TagParsing:  "{\"Pax\": \"100\", \"PaxTime\": \"2020/10/10\"}",
 		Payments: []model.Payment{
 			{
 				Name:     "Payment 1",

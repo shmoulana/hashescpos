@@ -2,7 +2,7 @@ package parsing
 
 import (
 	"fmt"
-	"github.com/DoTuanAnh2k1/parsing-template/model"
+	"printing-sampa-pos/model"
 	"strings"
 )
 

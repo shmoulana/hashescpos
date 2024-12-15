@@ -1,8 +1,8 @@
 package parsing
 
 import (
-	"github.com/DoTuanAnh2k1/parsing-template/model"
-	"github.com/DoTuanAnh2k1/parsing-template/utils"
+	"printing-sampa-pos/model"
+	"printing-sampa-pos/utils"
 	"strings"
 	"time"
 )

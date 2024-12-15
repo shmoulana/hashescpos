@@ -1,13 +1,13 @@
 package parsing
 
 import (
-	"github.com/DoTuanAnh2k1/parsing-template/model"
+	"printing-sampa-pos/model"
 	"regexp"
 	"strings"
 )
 
 func replaceTickerTag(template string, ticket model.Ticket) (string, error) {
-	m, err := convertFromStringToMap(ticket.Tag)
+	m, err := convertFromStringToMap(ticket.TagParsing)
 	if err != nil {
 		return "", err
 	}

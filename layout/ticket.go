@@ -3,7 +3,7 @@ package layout
 import (
 	"strings"
 
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/model"
+	"printing-sampa-pos/model"
 )
 
 func replaceTicket(layout string, ticket model.Ticket) string {

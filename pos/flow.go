@@ -3,9 +3,9 @@ package pos
 import (
 	"errors"
 
-	layout_utils "github.com/DoTuanAnh2k1/printing-sampa-pos/layout"
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/printing"
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/utils"
+	layout_utils "printing-sampa-pos/layout"
+	"printing-sampa-pos/printing"
+	"printing-sampa-pos/utils"
 )
 
 func (p *Pos) PrintWithUSB(usbPath string) error {

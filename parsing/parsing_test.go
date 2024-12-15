@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/parsing"
+	"printing-sampa-pos/parsing"
 
 	"github.com/stretchr/testify/require"
 )

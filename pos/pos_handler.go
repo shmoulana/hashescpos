@@ -3,9 +3,9 @@ package pos
 import (
 	"errors"
 
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/model"
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/parsing"
-	"github.com/DoTuanAnh2k1/printing-sampa-pos/utils"
+	"printing-sampa-pos/model"
+	"printing-sampa-pos/parsing"
+	"printing-sampa-pos/utils"
 )
 
 type Pos struct {
